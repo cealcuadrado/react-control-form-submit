@@ -1,6 +1,10 @@
+import MyForm from "../my-form/MyForm";
+
 function Layout() {
     return (
-        <p>Hola, mundo!</p>
+        <div className="layout">
+            <MyForm/>
+        </div>
     );
 }
 
